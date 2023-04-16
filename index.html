@@ -1,3 +1,4 @@
+<
 <!-- a tribute page for Alan Turing -->
 <!DOCTYPE html>
 <html lang="en">
@@ -17,18 +18,34 @@
         Text: Sean Dunnington, "LGBTQ History of Geography & Computers” Project</h6>
     </div>
     <div>
-	<main>
+	<main id="main">
 		<h3>Alan Turing</h3>
 		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Alan_Turing_Aged_16.jpg/220px-Alan_Turing_Aged_16.jpg" alt = "Alan Turing at age 16">
-		<p>Alan Turing was a British mathematician, logician, cryptanalyst, and computer scientist. He was highly influential in the development of computer science, providing a formalisation of the concepts of algorithm and computation with the Turing machine, which can be considered a model of a general-purpose computer. Turing is widely considered to be the father of theoretical computer science and artificial intelligence.</p>
+		<p id="title">Alan Turing was a British mathematician, logician, cryptanalyst, and computer scientist. He was highly influential in the development of computer science, providing a formalisation of the concepts of algorithm and computation with the Turing machine, which can be considered a model of a general-purpose computer. Turing is widely considered to be the father of theoretical computer science and artificial intelligence.</p>
 		
 		<h3>Early Life</h3>
 		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Alan_Turing_Aged_23.jpg/220px-Alan_Turing_Aged_23.jpg" alt = "Alan Turing at age 23">
 		<p>Alan Turing was born on 23 June 1912 in Maida Vale, London, to Julius Mathison Turing OBE FRS and Ethel Sara Turing (née Stoney). His father was a mathematician, logician, cryptanalyst and theoretical biologist. His mother was a devout Christian. Turing had one younger brother, John (1914–1997). Turing was educated at St Michael's Church of England Primary School, in West Dulwich, and then at Sherborne School, a public school in Dorset, where he was a scholar. He was then educated at King's College, Cambridge, where he was a member of the Apostles, a secret society. He was awarded a First in Mathematics in 1934, and a First in Mathematical Tripos in 1935. He was elected a Fellow of King's College in 1935, and a Fellow of the Royal Society in 1936.</p>
-		<h3>World War II</h3>
+		<h3>Achievements</h3>
 		<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wondriumdaily.com%2F50-pound-note-features-alan-turing-who-served-as-wwii-codebreaker%2F&psig=AOvVaw3vTGcHTyvtraOe56a7CPp-&ust=1681729049294000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNCK6Iafrv4CFQAAAAAdAAAAABAJ" alt="Turing's statue" />
-		
+		<ul id="tribute-info">
+			<li>He was a pioneer of computer science, and is widely considered to be the father of theoretical computer science and artificial intelligence.</li>
+			<li>He was a leading figure in mathematical logic, and was one of the first to recognise the importance of the undecidability of the Entscheidungsproblem, the problem of deciding whether a given statement is true or false within the formal system of any given formal language. This is now known as the Turing–Church thesis, after Alonzo Church.</li>
+		</ul>
 	</main>
     </div>
   </body>
 </html>
+
+<!-- User Stories:
+
+    Your tribute page should have a main element with a corresponding id of main, which contains all other elements
+    You should see an element with an id of title, which contains a string (i.e. text), that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug")
+    You should see either a figure or a div element with an id of img-div
+    Within the #img-div element, you should see an img element with a corresponding id="image"
+    Within the #img-div element, you should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in #img-div
+    You should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page
+    You should see an a element with a corresponding id="tribute-link", which links to an outside site, that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of target and set it to _blank in order for your link to open in a new tab
+    Your #image should use max-width and height properties to resize responsively, relative to the width of its parent element, without exceeding its original size
+    Your img element should be centered within its parent element
+-->
